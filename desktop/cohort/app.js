@@ -12,9 +12,10 @@ var num1 = prompt("please input a number.", 10),
     num2 = prompt("please input another number", 10),
 	int2 = parseInt(num2);
 
-if(int1 || int2 == isNaN){
-	console.log('thanks for paying attention')
+if(isNaN(int1) || isNaN(int2) ){
+	alert('I need numbers not strings!')
 } else {
+	alert(int1 + int2);
+	console.log('thanks for paying attention')
 	
-	console.log('I need numbers not strings!')
 }
