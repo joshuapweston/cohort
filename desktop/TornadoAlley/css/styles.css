@@ -1,0 +1,219 @@
+body{ 
+	background-color: #696969;
+	width:960px;
+}
+#header {
+	
+	min-height:10em;
+	max-width:auto;
+	background-image: url("../img/spookyGY.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #696969;
+	box-shadow:  10px 10px 20px 15px  #000
+
+}
+
+.T.A.P, {
+	text-align: center;
+	color: white;
+	font-size: 30pt;
+	position:relative;
+}
+.about{
+	text-align: center;
+}
+
+#mistie{
+	
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	background:#5C5858; 
+}
+
+
+#misty h2{
+	
+	text-align: center;
+	color: white;
+	
+}
+
+#misty p {
+	text-align: center;
+	color: white;
+}
+
+#harry{
+	
+	height: 195px;	
+	width: 195px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#5C5858;
+}
+
+#HW h2{
+	
+	text-align: center;
+	color: white;
+
+}
+
+#HW p {
+	text-align: center;
+	color: white;
+}
+
+#doris{
+	
+	height: 195px;	
+	width: 195px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#5C5858;
+}
+
+#DB h2{
+	color: white;
+	text-align: center;
+}
+
+#DB p{
+	text-align: center;
+	color: white;
+}
+
+#eileen{
+	
+	height:195px;
+	width:195px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#5C5858;
+}
+
+#EH h2{
+	text-align: center;
+	color: white;
+}
+
+#EH p{
+	text-align: center;
+
+	color: white;
+}
+
+#jordyn{
+	
+	height: 195px;	
+	width: 195px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#5C5858;
+}
+
+#JORDYN h2{
+	text-align: center;
+	color: white;
+}
+
+#JORDYN p{
+	text-align: center;
+	color: white;
+}
+
+#jarod{
+	
+	height: 195px;	
+	width: 195px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#5C5858;
+}
+
+#JAROD h2{
+	text-align: center;
+	color: white;
+}
+
+#JAROD p {
+	text-align: center;
+	color: white;
+}
+
+.social{
+	text-align: right;
+}
+
+
+	#tfnewsearch{
+		float:right;
+		padding:10px;
+	}
+
+.tfbutton2 {
+		margin: 0;
+		padding: 5px 7px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #372e2e;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #372e2e;
+		background: -webkit-gradient(linear, left top, left bottom, from(#372e2e), to(#372e2c));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+
+	.tftextinput2{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color: #101010;
+		border:1px solid #; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+
+	.tfbutton2:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	#contact, p{
+		text-align: center;
+	}
+	#social{
+		float: right;
+	}
+
+@media screen and(max-width: 650px){
+	#header, .T.A.P {
+		text-align: center;
+		color: white;
+		
+		font-size: 30pt;
+		position: relative;
+	}
+
+	#header{
+		max-height: 7em;
+	}
+}
